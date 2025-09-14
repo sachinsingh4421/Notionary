@@ -1,34 +1,65 @@
-# Flask Web App Tutorial
+# 📝 Notionary
 
-## Setup & Installation
+A modern, responsive web application for managing your personal notes. Built with Flask and Bootstrap 5, this app allows you to create, view, and delete notes with a clean and intuitive interface.
 
-Make sure you have the latest version of Python installed.
+![Notionary Screenshot](https://images.pexels.com/photos/261651/pexels-photo-261651.jpeg?auto=compress&cs=tinysrgb&w=200)
 
-```bash
-git clone <repo-url>
-```
+## ✨ Features
 
-```bash
-pip install -r requirements.txt
-```
+- 🔐 User authentication (Sign up, Login, Logout)
+- 📝 Create and manage notes
+- 🎨 Clean, responsive design
+- 🔄 Real-time updates
+- 📱 Mobile-friendly interface
+- 🔒 Secure password hashing
 
-## Running The App
+## 🚀 Getting Started
 
-```bash
-python main.py
-```
+### Prerequisites
 
-## Viewing The App
+- Python 3.8 or higher
+- pip (Python package manager)
 
-Go to `http://127.0.0.1:5000`
+### Installation
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sachinsingh4421/Notionary.git
+   cd Notionary
+   ```
 
-# 💻 Launch Your Software Development Career Today!  
+2. **Create a virtual environment** (recommended)
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 
-🎓 **No degree? No problem!** My program equips you with everything you need to break into tech and land an entry-level software development role.  
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-🚀 **Why Join?**  
-- 💼 **$70k+ starting salary potential**  
-- 🕐 **Self-paced:** Complete on your own time  
-- 🤑 **Affordable:** Low risk compared to expensive bootcamps or degrees
-- 🎯 **45,000+ job openings** in the market  
+4. **Set up the database**
+   ```bash
+   python
+   >>> from website import create_app, db
+   >>> app = create_app()
+   >>> with app.app_context():
+   ...     db.create_all()
+   ```
+
+5. **Run the application**
+   ```bash
+   python main.py
+   ```
+
+6. **Open in your browser**
+   Visit `http://127.0.0.1:5000`
+
+## 🛠️ Built With
+
+- [Flask](https://flask.palletsprojects.com/) - The web framework used
+- [SQLAlchemy](https://www.sqlalchemy.org/) - Database ORM
+- [Bootstrap 5](https://getbootstrap.com/) - Frontend framework
+- [Flask-Login](https://flask-login.readthedocs.io/) - User session management
+- [Werkzeug](https://werkzeug.palletsprojects.com/) - Security and password hashing
