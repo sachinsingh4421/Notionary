@@ -32,6 +32,3 @@ Go to `http://127.0.0.1:5000`
 - 🕐 **Self-paced:** Complete on your own time  
 - 🤑 **Affordable:** Low risk compared to expensive bootcamps or degrees
 - 🎯 **45,000+ job openings** in the market  
-
-👉 **[Start your journey today!](https://techwithtim.net/dev)**  
-No experience needed—just your determination. Future-proof your career and unlock six-figure potential like many of our students have!  
